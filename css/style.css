@@ -12,17 +12,47 @@ body{
     background-color: #469165;
     border:none;
     border-radius: 4px;
-}
-.btn1 a{
     color:#ffffff;
     text-decoration: none;
     font-weight: 600;
 }
-
+.btn2{
+    padding: 16.5px 16px;
+    background-color: #469165;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color:#ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    margin-right: 16px;
+}
+.btn3{
+    padding: 16.5px 16px;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    color:#ffffff;
+    text-decoration: none;
+    font-weight: 600;
+}
+/* Button Hover */
+.btn1:hover {
+    background-color: orange;
+    color:#000000;
+    cursor: pointer;
+}
+a .btn2:hover{
+    border: 1px solid #ffffff;
+    color: orange;
+    background: transparent;
+}
+a .btn3:hover{
+    color: orange;
+}
 /* Main style */
 
 /* Nav section */
-#nav-section{
+#nav-section ,.hero-container{
     width:88%;
     max-width: 1380px;
     margin: 0 auto;
@@ -45,3 +75,48 @@ body{
     text-decoration: none;
 }
 /* Hero-section */
+#hero-section{
+    background: url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-container .headline i{
+    margin-right: 5px;
+    color: #469165;
+}
+.hero-container{
+    text-align: center;
+    padding: 115px 0 180px 0px;
+}
+.hero-container .headline h5{
+    margin: 0 auto;
+    padding: 8px 16px 8px 16PX;
+    background-color: #fff;
+    width: 230px;
+    border-radius: 1000px;
+    text-align: center;
+    color: #469165;
+    margin-bottom: 16px;
+}
+.hero-container .headline h2{
+    color: #ffffff;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+}
+.hero-container .headline h2 span{
+    color: #30B868;
+}
+.hero-container .headline p{
+    color: #ffffff;
+    margin-top: 16px;
+    font-size: 18px;
+    line-height: 24px;
+}
+.hero-container .twin-btn{
+    margin-top: 32px;
+    
+}
+.hero-container .twin-btn i{
+    padding: 0 5px;
+}
