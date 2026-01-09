@@ -128,6 +128,7 @@ a .btn3:hover{
     max-width: 1380px;
     margin: 0 auto;
     text-align: center;
+    text-transform: capitalize;
 }
 #card-section .card-container .card-title h2{
     color: #001931;
@@ -167,7 +168,7 @@ a .btn3:hover{
     color: #627382;
 }
 
-#brain-section{
+#brain-section ,#join-section{
     width: 88%;
     max-width: 1380px;
     margin: 120px auto;
@@ -216,6 +217,31 @@ a .btn3:hover{
     margin-left: 3px;
 }
 
+#join-section .join-container{
+    text-align: center;
+    padding: 80px 40px;
+    background-color: #F7F6F2;
+}
+.join-container h2{
+    color: #001931;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    text-transform: capitalize;
+}
+.join-container p{
+    color: #627382;
+    margin-bottom: 24px;    
+}
+.join-container .btn2{
+    margin-bottom: 16px;    
+}
+.join-container a button:hover{
+    background-color: orange;
+    color:#000000;
+    cursor: pointer;
+    transition: ease-in 0.30s;
+}
 
 
 
