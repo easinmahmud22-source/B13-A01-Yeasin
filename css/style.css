@@ -40,14 +40,17 @@ body{
     background-color: orange;
     color:#000000;
     cursor: pointer;
+    transition: ease-in 0.30s;
 }
 a .btn2:hover{
     border: 1px solid #ffffff;
     color: orange;
     background: transparent;
+    transition: ease-out 0.30s;
 }
 a .btn3:hover{
     color: orange;
+    transition: ease-out 0.30s;
 }
 /* Main style */
 
