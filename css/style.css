@@ -164,8 +164,54 @@ a .btn3:hover{
     color: #627382;
 }
 
+#brain-section{
+    width: 88%;
+    max-width: 1380px;
+    margin: 120px auto;
+}
+#brain-section .brain-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.brain-container .brain-headline{
+    display: block;
+}
 
 
+.brain-title .brain-headline h5{
+    text-transform: uppercase;
+    color: #469165;
+    margin-bottom: 16px; 
+}
+.brain-title .brain-headline h2{
+    text-transform: capitalize;
+    color: #001931;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 58px;
+    margin-bottom: 16px; 
+    
+}
+.brain-title .brain-headline p{
+    color: #627382;
+    margin-bottom: 40px; 
+}
+.brain-title .brain-list{
+    vertical-align: center;
+}
+.brain-title .brain-list ul{
+    color: #001931;
+    list-style: none;
+    align-items: center;
+}
+.brain-title .brain-list li{
+    display: flex;
+    margin-bottom: 16px;
+}
+.brain-title .brain-list span{
+    margin-left: 3px;
+}
 
 
 
@@ -215,4 +261,5 @@ a .btn3:hover{
     padding-bottom: 30px;
     border-top: 1px solid silver;
     padding-top: 30px;
+    text-transform: capitalize;
 }
