@@ -120,3 +120,46 @@ a .btn3:hover{
 .hero-container .twin-btn i{
     padding: 0 5px;
 }
+#card-section{
+    width: 88%;
+    max-width: 1380px;
+    margin: 0 auto;
+    text-align: center;
+}
+#card-section .card-container .card-title h2{
+    color: #001931;
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 50px 0 16px 0;
+}
+#card-section .card-container .card-title p{
+    color: #627382;
+}
+.card-container .brain-card{
+    margin-top: 44px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.card-container .brain-card .card{
+    padding: 70px 24px;
+    border-radius: 8px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 70px;
+}
+.brain-card .card img{
+    background: #F95555;
+    padding: 14px;
+    border-radius: 10000px;
+    margin-bottom: 16px;
+}
+.brain-card .card h2{
+    color: #001931;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+#card-section .card-container p{
+    color: #627382;
+}
